@@ -1,4 +1,9 @@
-# web
+# Demo
+
+## Install
+```
+python -m pip install "PySide6-Fluent-Widgets[full]"
+```
 
 ## Project setup
 ```

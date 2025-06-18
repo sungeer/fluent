@@ -1,11 +1,12 @@
-# coding:utf-8
 import sys
 
 from PySide6.QtCore import Qt, QUrl
 from PySide6.QtGui import QIcon, QDesktopServices
 from PySide6.QtWidgets import QApplication
-from qfluentwidgets import (NavigationItemPosition, MessageBox, setTheme, Theme,
-                            NavigationAvatarWidget,  SplitFluentWindow, FluentTranslator)
+from qfluentwidgets import (
+    NavigationItemPosition, MessageBox, setTheme, Theme,
+    NavigationAvatarWidget,  SplitFluentWindow, FluentTranslator
+)
 from qfluentwidgets import FluentIcon as FIF
 
 from view.focus_interface import FocusInterface

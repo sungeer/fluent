@@ -1,0 +1,18 @@
+pip cache purge  # 清除缓存
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
+python -m pip install "PySide6-Fluent-Widgets[full]"
+
+
+pyside6-rcc resources.qrc -o resources_rc.py
+
+
+pyside6-uic redo_ui.ui -o redo_ui.py
+
+
+pyinstaller --name=printer --onefile --windowed --icon=assets/py.ico main.py
+
+
